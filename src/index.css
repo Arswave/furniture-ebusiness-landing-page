@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.dropdown:hover > .dropdown-content {
+	display: block;
+}
+.slide-zoom{
+     overflow: hidden;
+}
+.slide-zoom-image{
+    transition: all ease-in .3s;
+}
+.slide-zoom-image:hover{
+    transform: scale(1.1);
+}
